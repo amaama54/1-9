@@ -30,21 +30,21 @@ main {
 }
 
 .item1 {
-  background-image: url(flow01.png);
+  background-image: url(images/flow01.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
 }
 
 .item2 {
-  background-image: url(flow02.png);
+  background-image: url(images/flow02.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
 }
 
 .item3 {
-  background-image: url(flow03.png);
+  background-image: url(images/flow03.png);
   height: 150px;
   background-position: bottom;
   background-size: cover;
@@ -82,9 +82,12 @@ footer {
 
   .main-content {
     width: 90%;
-    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
+
   .main-content:last-child {
-    margin-bottom: none;
+    width: 90%;
+    margin: 0 auto;
   }
 }
